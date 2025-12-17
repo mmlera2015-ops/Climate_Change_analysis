@@ -1,0 +1,41 @@
+import pandas as pd
+import pymannkendall as mk
+
+# =========================
+# Load data
+# =========================
+file_path = "data/data_observation.csv"
+df = pd.read_csv(file_path)
+
+# =========================
+# Mann-Kendall & Sen test
+# =========================
+def mann_kendall_test(series, parameter_name):
+    series = series.dropna()
+    result = mk.original_test(series)
+
+    return {
+        "Parameter": parameter_name,
+        "Trend": result.trend,
+        "Kendall_Tau": round(result.Tau, 3),
+        "Z_value": round(result.z, 3),
+        "p_value": round(result.p, 4),
+        "Sens_slope": round(result.slope, 4)
+    }
+
+# =========================
+# Run tests
+# =========================
+results = []
+results.append(mann_kendall_test(df["tm_m"], "Temperature"))
+results.append(mann_kendall_test(df["rrr24"], "Precipitation"))
+
+results_table = pd.DataFrame(results)
+
+# =========================
+# Display & save results
+# =========================
+print("\nMann-Kendall and Sen's slope results:\n")
+print(results_table)
+
+results_table.to_csv("results/MK_Sen_results.csv", index=False)

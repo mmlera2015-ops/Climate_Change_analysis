@@ -1,0 +1,123 @@
+# ========================
+#    Import libraries
+# ========================
+import netCDF4 as nc
+import numpy as np
+import matplotlib.pyplot as plt
+from datetime import datetime
+from scipy.stats import linregress
+import pandas as pd
+
+
+# ========================
+# مسیر فایل NetCDF
+# ========================
+his_file = "data/SSP370_surface_temp.nc"
+
+
+# ========================
+# تابع خواندن دمای سطح (ts) از NetCDF
+# ========================
+def read_ts(file_path):
+
+    # باز کردن فایل
+    ds = nc.Dataset(file_path)
+
+    # متغیر دما (time, lat, lon) → Kelvin
+    ts = ds.variables["ts"][:]
+
+    # متغیر زمان
+    time_var = ds.variables["time"]
+
+    # تبدیل زمان NetCDF به datetime واقعی
+    time_cftime = nc.num2date(
+        time_var[:],
+        time_var.units,
+        calendar=getattr(time_var, "calendar", "standard")
+    )
+
+    ds.close()
+
+    # ساخت تاریخ‌های وسط ماه (روز ۱۵)
+    dates = pd.to_datetime([datetime(t.year, t.month, 15) for t in time_cftime])
+
+    # میانگین‌گیری مکانی: (lat, lon) → تک‌بعدی (time,)
+    ts_mean_k = np.nanmean(np.nanmean(ts, axis=2), axis=1)
+
+    # ========================
+    # تبدیل کلوین به سانتی‌گراد
+    # ========================
+    ts_mean_c = ts_mean_k - 273.15
+
+    return dates, ts_mean_c
+
+
+# ========================
+# خواندن دما از فایل
+# ========================
+dates_ts, ts_model = read_ts(his_file)
+
+
+# ========================
+# اطمینان از یک‌بعدی بودن
+# ========================
+dates_ts = np.array(dates_ts).flatten()
+ts_model = np.array(ts_model).flatten()
+
+
+# ========================
+# رسم سری زمانی دما
+# ========================
+plt.figure(figsize=(14, 6))
+
+plt.plot(
+    dates_ts, ts_model,
+    color="#1f77b4",
+    linewidth=2,
+    label="Surface Temperature (°C)"
+)
+
+
+# ========================
+# محاسبه خط روند
+# ========================
+x_num = np.arange(len(ts_model))
+
+slope, intercept, r_value, p_value, std_err = linregress(x_num, ts_model)
+
+trend_line = intercept + slope * x_num
+
+plt.plot(
+    dates_ts, trend_line,
+    color="red",
+    linestyle="--",
+    linewidth=2,
+    label=f"Trend: slope={slope:.4f} °C/step, R²={r_value**2:.3f}"
+)
+
+
+# ========================
+# تنظیمات گراف
+# ========================
+plt.title(
+    "Projected Surface Temperature in Bushehr (CESM2 – SSP.370)",
+    fontsize=16,
+    fontweight="bold"
+)
+
+plt.xlabel("Year", fontsize=14)
+plt.ylabel("Temperature (°C)", fontsize=14)
+
+plt.xticks(rotation=45)
+plt.grid(True, linestyle="--", alpha=0.5)
+plt.legend(fontsize=12)
+plt.tight_layout()
+
+
+# ========================
+# ذخیره خروجی‌ها
+# ========================
+plt.savefig("Surface_Temperature_SSP126_Trend.png", dpi=300, bbox_inches="tight")
+plt.savefig("Surface_Temperature_SSP126_Trend.pdf", bbox_inches="tight")
+
+plt.show()
