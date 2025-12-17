@@ -1,7 +1,7 @@
 # Climate_Change_analysis
 # Climate Change Scenario Analysis
 
-This repository contains a climate change scenario analysis using CMIP6 data, analyzing temperature and precipitation trends up to 2100.
+Climate change analysis project: Mann-Kendall & Sen trend analysis, temperature scenario plotting with Python & GIS
 
 ## Overview
 - Climate change scenario analysis using CMIP6 data
