@@ -1,6 +1,6 @@
 # Climate Data Analysis Portfolio
 
-## Leila Rashidiyan
+## Leila Rashidian
 
 I am a climate data analyst specializing in CMIP6 climate change scenarios.  
 My work focuses on analyzing climate parameters using Python and GIS, including trend analysis, visualization, and spatial mapping.
