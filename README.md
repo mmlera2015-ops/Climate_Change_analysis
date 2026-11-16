@@ -46,23 +46,36 @@ climate_change_analysis/
 - Marine Climatology: Sea Surface Temperature (SST), wave forecasting and marine climate assessment
 - Research Areas: Climate variability, polar climatology, Caspian Sea and Persian Gulf climate studies
 
- ## Featured Project: CMIP6 Climate Data Visualization
+##Featured Project: CMIP6 Climate Data Analysis and Visualization
 
-Project Focus: Climate Scenario Analysis and Scientific Visualization
+Project Focus: Climate Change Analysis, CMIP6 Scenarios, and Scientific Data Visualization
 
-This project demonstrates the use of Python for processing and visualizing climate model data from NetCDF datasets.
+This project demonstrates the application of Python-based methods for processing, analyzing, and visualizing climate data, with a focus on CMIP6 climate model outputs and future climate scenarios.
 
 Key Components:
 
-- Working with climate model output in NetCDF format
-- Visualization of surface temperature data
-- Exploration of CMIP6 climate scenarios, including SSP pathways
-- Time-series plotting and climate data presentation
-- Scientific visualization using Python
+- Processing and visualization of climate datasets in NetCDF format
+- Analysis of observational climate data
+- Exploration of multiple CMIP6 Shared Socioeconomic Pathways (SSPs)
+- Visualization of surface temperature patterns and climate-related trends
+- Time-series analysis and scientific data presentation
+- Development of reproducible workflows using Python and Jupyter Notebook
+
+Climate Data and Scenarios:
+
+The project supports the analysis of multiple CMIP6 climate scenarios, including SSP1-2.6, SSP2-4.5, SSP3-7.0, and SSP5-8.5. A sample of observational climate data is provided in this GitHub repository for demonstration purposes. Additional climate scenario analyses and related professional work are presented on my LinkedIn profile.
 
 Tools and Technologies:
-Python | NetCDF | Jupyter Notebook | Matplotlib | Climate Data Analysis
 
+Python | NetCDF | Jupyter Notebook | Pandas | NumPy | Matplotlib | Climate Data Analysis
+
+Project Objective:
+
+To examine climate data, explore potential future climate conditions under different emissions pathways, and communicate climate-related patterns through scientific visualization and data analysis.
+
+Professional Relevance:
+
+This work reflects practical experience in climate data processing, climate scenario assessment, scientific visualization, and the interpretation of climate variability and long-term changes.
 Project Objective:
 To explore climate model outputs and communicate climate-related patterns through scientific visualizations.
 
