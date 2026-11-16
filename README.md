@@ -52,7 +52,7 @@ climate_change_analysis/
 3. Open plot_trends.ipynb in Jupyter Notebook to visualize time series and trend lines.
 4. Output files (CSV, PNG, PDF) will be saved in the results/ folder.
 
-- ## International CV
+ ## International CV
 
 [Download My International CV](Leila_Rashidian_International_CV.pdf)
 
