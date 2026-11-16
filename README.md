@@ -1,8 +1,6 @@
-# Climate Change Analysis Project
+# Leila Rashidian
 
-Leila Rashidian
-
-Senior Climate Change Expert | Climate Data Scientist | Marine Climatology
+## Senior Climate Change Expert | Climate Data Scientist | Marine Climatology
 
 Climate Change Analysis | CMIP6 & RCP Scenarios | Python | GIS | Climate Modelling | Marine and Polar Climatology
 
@@ -38,6 +36,16 @@ climate_change_analysis/
 - GIS mapping for spatial visualization
 - Flexible structure to add more regions or climate variables
 
+- ## Technical Expertise
+
+- Climate Change Analysis: CMIP6, RCP scenarios, SSP scenarios, climate projections and long-term trend assessment
+- Climate Statistics: Mann-Kendall test, Sen's slope estimator, time-series analysis
+- Programming & Data Science: Python, R, MATLAB
+- Geospatial Analysis: ArcGIS, spatial climate mapping and visualization
+- Climate and Marine Modelling: RegCM4, WRF, SWAN, MIKE21
+- Marine Climatology: Sea Surface Temperature (SST), wave forecasting and marine climate assessment
+- Research Areas: Climate variability, polar climatology, Caspian Sea and Persian Gulf climate studies
+
 ## How to Use
 1. Place your data files in the data/ folder.
 2. Run analysis.py for statistical trend analysis.
@@ -45,6 +53,9 @@ climate_change_analysis/
 4. Output files (CSV, PNG, PDF) will be saved in the results/ folder.
 
 ## Contact
-For collaboration or inquiries, contact me via:
-- LinkedIn: [Leila Rashidian]  
-- Email: Lrashidiyan@yahoo.com
+
+For professional collaborations, climate research projects, and international consultancy opportunities, please contact me through:
+
+- LinkedIn: "Leila Rashidian" (https://www.linkedin.com/in/leila-rashidian-5a8512315/)
+- Email: "lrashidiyan@yahoo.com" (mailto:lrashidiyan@yahoo.com)
+- GitHub Portfolio: "Climate Change Analysis" (https://github.com/mmlera2015-ops/Climate_Change_analysis)
