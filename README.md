@@ -1,6 +1,10 @@
 # Climate Change Analysis Project
 
-This project provides a comprehensive climate change analysis using Python and GIS, focusing on CMIP6 scenarios. It includes statistical trend analysis, time series visualization, and spatial mapping of multiple climate parameters.
+Leila Rashidian
+
+Senior Climate Change Expert | Climate Data Scientist | Marine Climatology
+
+Climate Change Analysis | CMIP6 & RCP Scenarios | Python | GIS | Climate Modelling | Marine and Polar Climatology
 
 ## Project Structure
 
