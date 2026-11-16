@@ -96,3 +96,14 @@ For professional collaborations, climate research projects, and international co
 - LinkedIn: "Leila Rashidian" (https://www.linkedin.com/in/leila-rashidian-5a8512315/)
 - Email: "lrashidiyan@yahoo.com" (mailto:lrashidiyan@yahoo.com)
 - GitHub Portfolio: "Climate Change Analysis" (https://github.com/mmlera2015-ops/Climate_Change_analysis)
+
+  ## Research Outputs
+
+The PDF file containing CMIP6 climate analysis graphs and visualizations is available in this repository.
+
+## Key Components
+- Climate model evaluation
+- Historical climate trends
+- Future climate projections
+- SSP scenario analysis
+- Graphical visualization of climate variables
