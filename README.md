@@ -46,6 +46,26 @@ climate_change_analysis/
 - Marine Climatology: Sea Surface Temperature (SST), wave forecasting and marine climate assessment
 - Research Areas: Climate variability, polar climatology, Caspian Sea and Persian Gulf climate studies
 
+ ## Featured Project: CMIP6 Climate Data Visualization
+
+Project Focus: Climate Scenario Analysis and Scientific Visualization
+
+This project demonstrates the use of Python for processing and visualizing climate model data from NetCDF datasets.
+
+Key Components:
+
+- Working with climate model output in NetCDF format
+- Visualization of surface temperature data
+- Exploration of CMIP6 climate scenarios, including SSP pathways
+- Time-series plotting and climate data presentation
+- Scientific visualization using Python
+
+Tools and Technologies:
+Python | NetCDF | Jupyter Notebook | Matplotlib | Climate Data Analysis
+
+Project Objective:
+To explore climate model outputs and communicate climate-related patterns through scientific visualizations.
+
 ## How to Use
 1. Place your data files in the data/ folder.
 2. Run analysis.py for statistical trend analysis.
