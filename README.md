@@ -46,7 +46,7 @@ climate_change_analysis/
 - Marine Climatology: Sea Surface Temperature (SST), wave forecasting and marine climate assessment
 - Research Areas: Climate variability, polar climatology, Caspian Sea and Persian Gulf climate studies
 
-##Featured Project: CMIP6 Climate Data Analysis and Visualization
+## Featured Project: CMIP6 Climate Data Analysis and Visualization
 
 Project Focus: Climate Change Analysis, CMIP6 Scenarios, and Scientific Data Visualization
 
