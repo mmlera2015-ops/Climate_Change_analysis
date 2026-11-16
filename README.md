@@ -97,13 +97,18 @@ For professional collaborations, climate research projects, and international co
 - Email: "lrashidiyan@yahoo.com" (mailto:lrashidiyan@yahoo.com)
 - GitHub Portfolio: "Climate Change Analysis" (https://github.com/mmlera2015-ops/Climate_Change_analysis)
 
-  ## Research Outputs
+  
+## Research Outputs
 
 The PDF file containing CMIP6 climate analysis graphs and visualizations is available in this repository.
 
+[View CMIP6 Scenario Diagrams – Persian Gulf (PDF)](https://github.com/mmlera2015-ops/Climate_Change_analysis/blob/main/Persian%20Gulf%20CMIP6%20scenario%20diagrams.pdf)
+
 ## Key Components
+
 - Climate model evaluation
 - Historical climate trends
 - Future climate projections
 - SSP scenario analysis
 - Graphical visualization of climate variables
+
