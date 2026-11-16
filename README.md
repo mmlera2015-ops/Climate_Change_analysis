@@ -6,6 +6,18 @@ Senior Climate Change Expert | Climate Data Scientist | Marine Climatology
 
 Climate Change Analysis | CMIP6 & RCP Scenarios | Python | GIS | Climate Modelling | Marine and Polar Climatology
 
+##Professional Profile
+
+I am a climate change and climate data professional with over 23 years of overall professional experience, including approximately 14 years of specialized experience in climate change research, analysis, and project coordination.
+
+My expertise includes climate scenario analysis (CMIP6 and RCP), climate trend assessment, marine climatology, long-term climate variability, and GIS-based spatial analysis.
+
+I have experience using Python, R, GIS, and climate modelling tools for climate data processing, visualization, trend analysis, and scientific research.
+
+My professional research has covered the Caspian Sea, Persian Gulf, Gulf of Oman, Indian Ocean, Arctic, and Antarctic regions.
+
+I am a formally registered expert reviewer in the IPCC AR7 Working Group II review process. I reviewed eight chapters and submitted formal comments through the official review platform, including comments on supplementary assessment materials covering both polar regions.
+
 ## Project Structure
 
 climate_change_analysis/
