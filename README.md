@@ -6,7 +6,7 @@ Senior Climate Change Expert | Climate Data Scientist | Marine Climatology
 
 Climate Change Analysis | CMIP6 & RCP Scenarios | Python | GIS | Climate Modelling | Marine and Polar Climatology
 
-##Professional Profile
+## Professional Profile
 
 I am a climate change and climate data professional with over 23 years of overall professional experience, including approximately 14 years of specialized experience in climate change research, analysis, and project coordination.
 
