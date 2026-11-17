@@ -50,6 +50,18 @@ This project presents selected climate scenario analysis outputs for the Persian
 
 The scenario work reflects the use of climate model projections, SSP pathways, data processing, and scientific visualization for regional climate assessment.
 
+### 3. Caspian Sea Climate Assessment – Water Year 2025–2026
+
+A separate project documenting the climate assessment of the Iranian Caspian Sea coast, including its study scope, methodology, key findings, and reviewed figures as they become available.
+
+[Open the Caspian Sea project](Caspian_Sea_Climate_Assessment_2025_2026/README.md)
+
+### 4. Persian Gulf CMIP6 Climate Projections
+
+A dedicated project page for the Bushehr / Persian Gulf CMIP6 scenario diagrams, with project documentation and methodology.
+
+[Open the Persian Gulf project](Persian_Gulf_CMIP6_Climate_Projections/README.md)
+
 ## Repository Structure
 
 ```text
@@ -57,6 +69,16 @@ Climate_Change_analysis/
 ├── Python_Codes/
 │   └── Observed_Climate_Parameters.py
 ├── Persian Gulf CMIP6 scenario diagrams.pdf
+├── Persian_Gulf_CMIP6_Climate_Projections/
+│   ├── README.md
+│   ├── Methodology.md
+│   └── Figures/
+│       └── README.md
+├── Caspian_Sea_Climate_Assessment_2025_2026/
+│   ├── README.md
+│   ├── Methodology.md
+│   └── Figures/
+│       └── README.md
 ├── Leila_Rashidian_International_CV.pdf
 ├── requirements.txt
 └── README.md
