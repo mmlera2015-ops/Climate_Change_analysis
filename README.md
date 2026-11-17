@@ -79,6 +79,57 @@ This work reflects practical experience in climate data processing, climate scen
 Project Objective:
 To explore climate model outputs and communicate climate-related patterns through scientific visualizations.
 
+## Featured Project: Observed Climate Parameters Analysis Using Python
+
+### Project Overview
+
+This project presents a Python-based workflow for analyzing observed meteorological data and comparing climate parameters with their corresponding climatological normals.
+
+The analysis focuses on identifying monthly climate anomalies and visualizing deviations from long-term climatological conditions across meteorological stations.
+
+### Climate Parameters
+
+- Precipitation
+- Mean Temperature
+- Maximum Temperature
+- Minimum Temperature
+- Relative Humidity
+- Evaporation
+
+### Methodology
+
+The Python workflow includes:
+
+- Importing and validating climate datasets from Excel files.
+- Organizing monthly climate records by meteorological station.
+- Comparing observed values with climatological normal values.
+- Calculating monthly anomalies using:
+
+  **Anomaly = Observed Value − Climatological Normal**
+
+- Generating comparison charts and monthly anomaly visualizations.
+
+### Tools and Technologies
+
+Python | Pandas | NumPy | Matplotlib | Excel Data Processing | Scientific Visualization
+
+### Outputs
+
+The workflow generates two types of graphical outputs:
+
+- Monthly comparison charts of observed climate values and climatological normals.
+- Monthly anomaly charts illustrating positive and negative departures from climatological normals.
+
+### Data Privacy
+
+Original meteorological datasets are retained locally and are not included in the public repository. Station names are anonymized in the generated figures, and precise station coordinates are not published.
+
+### Scientific Applications
+
+This project supports climate monitoring, climate variability assessment, monthly anomaly analysis, and the preparation of scientific climate reports.
+
+**Python Script:** `Python_Codes/Observed_Climate_Parameters.py`
+
 ## How to Use
 1. Place your data files in the data/ folder.
 2. Run analysis.py for statistical trend analysis.
