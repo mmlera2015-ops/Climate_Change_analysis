@@ -1,165 +1,128 @@
 # Leila Rashidian
 
-## Senior Climate Change Expert | Climate Data Scientist | Marine Climatology
+## Senior Climate Change Expert | Climate Data Analyst | Marine Climatology
 
-Climate Change Analysis | CMIP6 & RCP Scenarios | Python | GIS | Climate Modelling | Marine and Polar Climatology
+**Climate Change Assessment | CMIP6 & SSP Scenarios | Python | GIS | Climate Modelling | Marine and Polar Climatology**
 
 ## Professional Profile
 
-I am a climate change and climate data professional with over 23 years of overall professional experience, including approximately 14 years of specialized experience in climate change research, analysis, and project coordination.
+I am a climate change and climate data professional with more than 23 years of overall professional experience, including approximately 14 years of specialized experience in climate change research, marine climatology, climate data analysis, and scientific project coordination.
 
-My expertise includes climate scenario analysis (CMIP6 and RCP), climate trend assessment, marine climatology, long-term climate variability, and GIS-based spatial analysis.
+My areas of expertise include climate scenario analysis (CMIP6, RCP and SSP pathways), climate trend and variability assessment, marine and coastal climatology, climate modelling, and GIS-based spatial analysis. I use Python, R, MATLAB, GIS, and climate and ocean modelling tools to process, analyse, interpret, and visualize climate and oceanographic data.
 
-I have experience using Python, R, GIS, and climate modelling tools for climate data processing, visualization, trend analysis, and scientific research.
+My professional and research experience covers the Caspian Sea, Persian Gulf, Gulf of Oman, Indian Ocean, Arctic, and Antarctic regions.
 
-My professional research has covered the Caspian Sea, Persian Gulf, Gulf of Oman, Indian Ocean, Arctic, and Antarctic regions.
+I am registered as an expert reviewer in the IPCC Seventh Assessment Report (AR7), Working Group II review process. I reviewed eight chapters and submitted formal technical comments through the official review platform. This repository does not contain confidential review material.
 
-I am a formally registered expert reviewer in the IPCC AR7 Working Group II review process. I reviewed eight chapters and submitted formal comments through the official review platform, including comments on supplementary assessment materials covering both polar regions.
+## Repository Overview
 
-## Project Structure
+This repository presents selected examples of my work in climate data analysis, climate scenario assessment, and scientific visualization. It is intended as a professional portfolio and a starting point for reproducible analysis.
 
-climate_change_analysis/
-├── analysis.py                ← Mann-Kendall & Sen trend analysis
-├── plot_trends.ipynb          ← Jupyter Notebook for temperature scenario plotting
-├── data/
-│    ├── data_observation.csv  ← Observational climate data
-│    └── SSP370_surface_temp.nc← NetCDF model output for surface temperature
-├── results/
-│    ├── MK_Sen_results.csv    ← Statistical results output
-│    ├── Surface_Temperature_SSP126_Trend.png
-│    └── Surface_Temperature_SSP126_Trend.pdf
-├── README.md                  ← This file
+### 1. Observed Climate Parameters Analysis Using Python
 
-## Features
-- Mann-Kendall & Sen trend analysis for multiple climate parameters
-- Time series plotting with trend lines
-- GIS mapping for spatial visualization
-- Flexible structure to add more regions or climate variables
+**Script:** [Python_Codes/Observed_Climate_Parameters.py](Python_Codes/Observed_Climate_Parameters.py)
 
-- ## Technical Expertise
+This Python workflow compares observed monthly meteorological parameters with their corresponding climatological normals and generates comparison and anomaly charts.
 
-- Climate Change Analysis: CMIP6, RCP scenarios, SSP scenarios, climate projections and long-term trend assessment
-- Climate Statistics: Mann-Kendall test, Sen's slope estimator, time-series analysis
-- Programming & Data Science: Python, R, MATLAB
-- Geospatial Analysis: ArcGIS, spatial climate mapping and visualization
-- Climate and Marine Modelling: RegCM4, WRF, SWAN, MIKE21
-- Marine Climatology: Sea Surface Temperature (SST), wave forecasting and marine climate assessment
-- Research Areas: Climate variability, polar climatology, Caspian Sea and Persian Gulf climate studies
-
-## Featured Project: CMIP6 Climate Data Analysis and Visualization
-
-Project Focus: Climate Change Analysis, CMIP6 Scenarios, and Scientific Data Visualization
-
-This project demonstrates the application of Python-based methods for processing, analyzing, and visualizing climate data, with a focus on CMIP6 climate model outputs and future climate scenarios.
-
-Key Components:
-
-- Processing and visualization of climate datasets in NetCDF format
-- Analysis of observational climate data
-- Exploration of multiple CMIP6 Shared Socioeconomic Pathways (SSPs)
-- Visualization of surface temperature patterns and climate-related trends
-- Time-series analysis and scientific data presentation
-- Development of reproducible workflows using Python and Jupyter Notebook
-
-Climate Data and Scenarios:
-
-The project supports the analysis of multiple CMIP6 climate scenarios, including SSP1-2.6, SSP2-4.5, SSP3-7.0, and SSP5-8.5. Original observational datasets are retained locally and are not included in this repository. Additional climate scenario analyses and related professional work are presented on my LinkedIn profile.
-
-Tools and Technologies:
-
-Python | NetCDF | Jupyter Notebook | Pandas | NumPy | Matplotlib | Climate Data Analysis
-
-Project Objective:
-
-To examine climate data, explore potential future climate conditions under different emissions pathways, and communicate climate-related patterns through scientific visualization and data analysis.
-
-Professional Relevance:
-
-This work reflects practical experience in climate data processing, climate scenario assessment, scientific visualization, and the interpretation of climate variability and long-term changes.
-Project Objective:
-To explore climate model outputs and communicate climate-related patterns through scientific visualizations.
-
-## Featured Project: Observed Climate Parameters Analysis Using Python
-
-### Project Overview
-
-This project presents a Python-based workflow for analyzing observed meteorological data and comparing climate parameters with their corresponding climatological normals.
-
-The analysis focuses on identifying monthly climate anomalies and visualizing deviations from long-term climatological conditions across meteorological stations.
-
-### Climate Parameters
-
+**Climate parameters**
 - Precipitation
-- Mean Temperature
-- Maximum Temperature
-- Minimum Temperature
-- Relative Humidity
+- Mean temperature
+- Maximum temperature
+- Minimum temperature
+- Relative humidity
 - Evaporation
 
-### Methodology
+**Methodology and outputs**
+- Reads a locally selected Excel workbook.
+- Checks that the required data columns are available.
+- Organizes monthly values by station.
+- Calculates anomalies as observed values minus climatological normals.
+- Generates observed-versus-normal comparison charts and monthly anomaly charts.
+- Uses anonymized station labels in the figures.
 
-The Python workflow includes:
+**Data privacy:** Original observational datasets are not included in this public repository. The script reads the user's local Excel file; station names are anonymized in generated figures, and station coordinates are neither required nor published.
 
-- Importing and validating climate datasets from Excel files.
-- Organizing monthly climate records by meteorological station.
-- Comparing observed values with climatological normal values.
-- Calculating monthly anomalies using:
+### 2. CMIP6 Climate Scenario Analysis – Persian Gulf
 
-  **Anomaly = Observed Value − Climatological Normal**
+This project presents selected climate scenario analysis outputs for the Persian Gulf region. The accompanying PDF contains scientific diagrams prepared to communicate projected climate conditions under CMIP6 scenarios.
 
-- Generating comparison charts and monthly anomaly visualizations.
+[View CMIP6 Scenario Diagrams – Persian Gulf (PDF)](Persian%20Gulf%20CMIP6%20scenario%20diagrams.pdf)
 
-### Tools and Technologies
+The scenario work reflects the use of climate model projections, SSP pathways, data processing, and scientific visualization for regional climate assessment.
 
-Python | Pandas | NumPy | Matplotlib | Excel Data Processing | Scientific Visualization
+## Repository Structure
 
-### Outputs
+```text
+Climate_Change_analysis/
+├── Python_Codes/
+│   └── Observed_Climate_Parameters.py
+├── Persian Gulf CMIP6 scenario diagrams.pdf
+├── Leila_Rashidian_International_CV.pdf
+├── requirements.txt
+└── README.md
+```
 
-The workflow generates two types of graphical outputs:
+The repository also contains selected supporting figures and professional documents. Original observational datasets and station coordinates are not published.
 
-- Monthly comparison charts of observed climate values and climatological normals.
-- Monthly anomaly charts illustrating positive and negative departures from climatological normals.
+## How to Run the Python Analysis
 
-### Data Privacy
+### Requirements
 
-Original meteorological datasets are retained locally and are not included in the public repository. Station names are anonymized in the generated figures, and precise station coordinates are not published.
+- Python 3
+- pandas
+- NumPy
+- Matplotlib
+- openpyxl
 
-### Scientific Applications
+Install the required packages:
 
-This project supports climate monitoring, climate variability assessment, monthly anomaly analysis, and the preparation of scientific climate reports.
+```bash
+pip install -r requirements.txt
+```
 
-**Python Script:** `Python_Codes/Observed_Climate_Parameters.py`
+### Input Excel workbook
 
-## How to Use
-1. Place your data files in the data/ folder.
-2. Run analysis.py for statistical trend analysis.
-3. Open plot_trends.ipynb in Jupyter Notebook to visualize time series and trend lines.
-4. Output files (CSV, PNG, PDF) will be saved in the results/ folder.
+The script opens a file-selection window so that the input workbook can remain on your local computer. The workbook must contain a worksheet named `Sheet1` and the required columns below:
 
- ## International CV
+- `station_name`, `month`
+- Observed values: `rrr24`, `tm_m`, `tmax_m`, `tmin_m`, `umm`, `evt_s`
+- Corresponding normal values: `n_rrr24`, `n_tm_m`, `n_tmax_m`, `n_tmin_m`, `n_umm`, `n_evt_s`
 
-[Download My International CV](Leila_Rashidian_International_CV.pdf)
+Run the script from the repository directory:
 
-## Contact
+```bash
+python Python_Codes/Observed_Climate_Parameters.py
+```
 
-For professional collaborations, climate research projects, and international consultancy opportunities, please contact me through:
+Select your local Excel workbook when prompted. The generated figures are saved automatically in:
 
-- LinkedIn: "Leila Rashidian" (https://www.linkedin.com/in/leila-rashidian-5a8512315/)
-- Email: "lrashidiyan@yahoo.com" (mailto:lrashidiyan@yahoo.com)
-- GitHub Portfolio: "Climate Change Analysis" (https://github.com/mmlera2015-ops/Climate_Change_analysis)
+```text
+Figures/Observed_Climate/
+```
 
-  
-## Research Outputs
+The original Excel workbook is not modified or uploaded by the script.
 
-The PDF file containing CMIP6 climate analysis graphs and visualizations is available in this repository.
+## Tools and Technologies
 
-[View CMIP6 Scenario Diagrams – Persian Gulf (PDF)](https://github.com/mmlera2015-ops/Climate_Change_analysis/blob/main/Persian%20Gulf%20CMIP6%20scenario%20diagrams.pdf)
+Python | Pandas | NumPy | Matplotlib | Excel | NetCDF | R | MATLAB | ArcGIS | RegCM4 | WRF | SWAN | MIKE 21
 
-## Key Components
+## Research Interests
 
-- Climate model evaluation
-- Historical climate trends
-- Future climate projections
-- SSP scenario analysis
-- Graphical visualization of climate variables
+- Climate change impacts, risks, and adaptation
+- CMIP6 climate projections and SSP scenarios
+- Climate variability and long-term trend analysis
+- Marine and coastal climatology
+- Oceanographic and wave modelling
+- Polar climate research
+- GIS-based climate analysis and visualization
 
+## International CV
+
+[View International CV (PDF)](Leila_Rashidian_International_CV.pdf)
+
+## Contact and Collaboration
+
+I welcome opportunities for international research collaboration, climate data analysis, marine and coastal climate assessment, and project-based scientific consultancy, including remote assignments.
+
+- **LinkedIn:** [Leila Rashidian](https://www.linkedin.com/in/leila-rashidian-5a8512315/)
+- **GitHub:** [Climate Change Analysis](https://github.com/mmlera2015-ops/Climate_Change_analysis)
