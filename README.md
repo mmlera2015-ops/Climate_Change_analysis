@@ -63,7 +63,7 @@ Key Components:
 
 Climate Data and Scenarios:
 
-The project supports the analysis of multiple CMIP6 climate scenarios, including SSP1-2.6, SSP2-4.5, SSP3-7.0, and SSP5-8.5. A sample of observational climate data is provided in this GitHub repository for demonstration purposes. Additional climate scenario analyses and related professional work are presented on my LinkedIn profile.
+The project supports the analysis of multiple CMIP6 climate scenarios, including SSP1-2.6, SSP2-4.5, SSP3-7.0, and SSP5-8.5. Original observational datasets are retained locally and are not included in this repository. Additional climate scenario analyses and related professional work are presented on my LinkedIn profile.
 
 Tools and Technologies:
 
