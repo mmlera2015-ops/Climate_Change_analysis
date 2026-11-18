@@ -83,3 +83,9 @@ Climate Change and Climate Data Analysis
 ---
 
 *This project summary describes station-based climate analysis. Conclusions about Caspian Sea level changes require integration with hydrological and sea-surface water-balance data.*
+
+## Professional Links
+
+- **LinkedIn:** [Leila Rashidian](https://www.linkedin.com/in/leila-rashidian-5a8512315/)
+- **GitHub Portfolio:** [Climate Change Analysis](https://github.com/mmlera2015-ops/Climate_Change_analysis)
+- **International CV:** [View the PDF](../Leila_Rashidian_International_CV.pdf)
