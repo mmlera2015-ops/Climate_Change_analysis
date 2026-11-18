@@ -50,11 +50,22 @@ This project presents selected climate scenario analysis outputs for the Persian
 
 The scenario work reflects the use of climate model projections, SSP pathways, data processing, and scientific visualization for regional climate assessment.
 
-### 3. Caspian Sea Climate Assessment – Water Year 2025–2026
+### 3. Caspian Sea Climate Assessment and CMIP6 Scenario Analysis
 
-A separate project documenting the climate assessment of the Iranian Caspian Sea coast, including its study scope, methodology, key findings, and reviewed figures as they become available.
+The Caspian Sea work is organized as a dedicated project with two distinct components:
 
-[Open the Caspian Sea project](Caspian_Sea_Climate_Assessment_2025_2026/README.md)
+- **Observed coastal climate assessment (2025–2026):** analysis of meteorological observations and climatological normals along the Iranian Caspian coast. The project page documents the study scope, methodology, findings, and important data limitations.
+- **CMIP6 scenario analysis:** selected central and southern Caspian Sea locations are analysed using model output for surface temperature (CESM2, SSP3-7.0) and precipitation (CNRM, SSP5-8.5). Python scripts read local NetCDF files and generate time-series and trend figures.
+
+The observational station assessment and model-based scenario analysis are separate analyses and should not be interpreted as a single continuous dataset or as a basin-wide assessment.
+
+[Open the Caspian Sea project and methodology](Caspian_Sea_Climate_Assessment_2025_2026/README.md)
+
+**Scenario analysis scripts:**
+- [Surface temperature — CESM2 SSP370](Caspian_Sea_Climate_Assessment_2025_2026/Python_Codes/Surface_Temperature_Caspian_Central_South_CESM2_SSP370.py)
+- [Precipitation — CNRM SSP585](Caspian_Sea_Climate_Assessment_2025_2026/Python_Codes/Precipitation_Caspian_Central_South_CNRM_SSP585.py)
+
+Original NetCDF files and precise point coordinates are not included in the public repository.
 
 ### 4. Persian Gulf CMIP6 Climate Projections
 
@@ -77,6 +88,9 @@ Climate_Change_analysis/
 ├── Caspian_Sea_Climate_Assessment_2025_2026/
 │   ├── README.md
 │   ├── Methodology.md
+│   ├── Python_Codes/
+│   │   ├── Surface_Temperature_Caspian_Central_South_CESM2_SSP370.py
+│   │   └── Precipitation_Caspian_Central_South_CNRM_SSP585.py
 │   └── Figures/
 │       └── README.md
 ├── Leila_Rashidian_International_CV.pdf
